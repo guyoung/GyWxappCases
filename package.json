@@ -1,0 +1,22 @@
+{
+  "name": "gywxappcases",
+  "version": "0.1.0",
+  "description": "w",
+  "main": "微信小程序案例",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guyoung/GyWxappCases"
+  },
+  "author": "guyoung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guyoung/GyWxappCases/issues"
+  },
+  "homepage": "https://github.com/guyoung/GyWxappCases#readme",
+  "dependencies": {
+    "immutable": "^3.8.1",
+    "moment": "^2.15.1",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {}
+}

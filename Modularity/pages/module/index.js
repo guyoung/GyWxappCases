@@ -1,38 +1,48 @@
 //index.js
 
-var MathClass = require('./math.js');
-var MathClassUmd = require('./mathUmd.js');
-
-
-//获取应用实例
-var app = getApp();
-
-
+/* CommonJs */
+var MathClass = require( './mathCommonJS.js' );
 Page( {
-
     onLoad: function() {
-        //console.log('onLoad');
-        var that = this;
-
-        var lines = [];
-
+        console.log( "PI: " + MathClass.PI );
         var mathClass = new MathClass();
-        
-        lines.push( "PI" );
-        lines.push( MathClass.PI );
-
-        lines.push( "3 + 4" );
-        lines.push( mathClass.add(3, 4) );
-
-        lines.push( "" );
-
-        mathClass = new MathClassUmd();
-        lines.push( "6 + 8" );
-        lines.push( mathClass.add(6, 8) );
-       
-
-        this.setData( {
-            text: lines.join( '\n' )
-        })
+        console.log( "3 + 4: " + mathClass.add( 3, 4 ) );
     }
-})
+});
+
+/* AMD
+define( [ "mathAMD" ], function( require, exports, MathClass ) {
+    Page( {
+        onLoad: function() {
+            console.log( "PI: " + MathClass.PI );
+            var mathClass = new MathClass();
+            console.log( "3 + 4: " + mathClass.add( 3, 4 ) );
+        }
+    });
+
+});
+*/
+
+/* UMD
+var MathClass = require( './mathUMD.js' );
+Page( {
+    onLoad: function() {
+        console.log( "PI: " + MathClass.PI );
+        var mathClass = new MathClass();
+        console.log( "3 + 4: " + mathClass.add( 3, 4 ) );
+    }
+});
+*/
+
+/* CMD
+define( "pages/module/index.js", function( require, exports, module ) {
+    var MathClass = require( './mathCMD.js' );
+    Page( {
+        onLoad: function() {
+            console.log( "PI: " + MathClass.PI );
+            var mathClass = new MathClass();
+            console.log( "3 + 4: " + mathClass.add( 3, 4 ) );
+        }
+    });
+});
+*/

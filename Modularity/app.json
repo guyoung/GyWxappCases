@@ -1,15 +1,16 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/module/index",
-    "pages/underscore/index",
-    "pages/immutable/index",
-    "pages/logs/logs"
-  ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
-  }
+    "pages": [
+        "pages/index/index",
+        "pages/module/index",
+        "pages/underscore/index",
+        "pages/immutable/index",
+        "pages/more/index",
+        "pages/logs/logs"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black"
+    }
 }

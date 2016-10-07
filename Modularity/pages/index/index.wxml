@@ -8,17 +8,22 @@
         <view class="btn-area">
             <navigator url="../module/index" hover-class="navigator-hover">
                 <button type="default">Module</button>
-            </navigator>         
+            </navigator>
         </view>
-         <view class="btn-area">
+        <view class="btn-area">
             <navigator url="../underscore/index" hover-class="navigator-hover">
                 <button type="default">Underscore.js</button>
-            </navigator>         
+            </navigator>
         </view>
         <view class="btn-area">
             <navigator url="../immutable/index" hover-class="navigator-hover">
                 <button type="default">Immutable.js</button>
-            </navigator>         
+            </navigator>
+        </view>
+        <view class="btn-area">
+            <navigator url="../more/index" hover-class="navigator-hover">
+                <button type="default">More: Guid、Base64、Chance</button>
+            </navigator>
         </view>
     </view>
 </view>

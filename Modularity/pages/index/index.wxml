@@ -22,7 +22,7 @@
         </view>
         <view class="btn-area">
             <navigator url="../more/index" hover-class="navigator-hover">
-                <button type="default">More: Guid、Base64、Chance</button>
+                <button type="default">More: UUID、Base64、Chance</button>
             </navigator>
         </view>
     </view>

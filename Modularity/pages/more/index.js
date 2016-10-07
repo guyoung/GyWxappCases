@@ -16,7 +16,7 @@ Page({
         // UUID
         // v1 是基于时间戳生成uuid
         console.log(uuid.v1());
-        // v4是随机生成uuid
+        // v4 是随机生成uuid
         console.log(uuid.v4());
         console.log('');
 

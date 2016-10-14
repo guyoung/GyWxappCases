@@ -9,7 +9,11 @@
  */
 
 (function(global) {
+
     'use strict';
+
+    var global = global || {};
+
     // existing version for noConflict()
     var _Base64 = global.Base64;
     var version = "2.1.9";

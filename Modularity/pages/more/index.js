@@ -1,8 +1,12 @@
 //index.js
 
-var uuid = require('../../libs/node-uuid/uuid.modified.js');
-var Base64 = require('../../libs/js-base64/base64.modified.js');
-var Chance = require('../../libs/chance/chance.modified.js');
+//var uuid = require('../../libs/node-uuid/uuid.modified.js');
+//var Base64 = require('../../libs/js-base64/base64.modified.js');
+//var Chance = require('../../libs/chance/chance.modified.js');
+
+var uuid = require('../../libs/node-uuid/uuid.modified');
+var Base64 = require('../../libs/js-base64/base64.modified');
+var Chance = require('../../libs/chance/chance');
 
 //获取应用实例
 var app = getApp();
@@ -13,12 +17,14 @@ Page({
         //console.log('onLoad');
         var that = this;
 
+
         // UUID
         // v1 是基于时间戳生成uuid
         console.log(uuid.v1());
         // v4 是随机生成uuid
         console.log(uuid.v4());
         console.log('');
+
 
         // Base64
         console.log(Base64.encode('Wechat'));

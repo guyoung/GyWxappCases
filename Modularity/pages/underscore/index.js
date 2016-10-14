@@ -1,6 +1,6 @@
 //index.js
 
-var _ = require('../../libs/underscore/underscore.modified.js');
+var _ = require('../../libs/underscore/underscore.modified');
 
 //获取应用实例
 var app = getApp();

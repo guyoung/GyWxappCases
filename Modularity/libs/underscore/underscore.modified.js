@@ -8,11 +8,13 @@
     // Baseline setup
     // --------------
 
+    /*
     // Establish the root object, `window` in the browser, or `exports` on the server.
     var root = this;
 
     // Save the previous value of the `_` variable.
     var previousUnderscore = root._;
+    */
 
     // Save bytes in the minified (but not gzipped) version:
     var ArrayProto = Array.prototype,
@@ -44,21 +46,17 @@
         this._wrapped = obj;
     };
 
-    /*
     // Export the Underscore object for **Node.js**, with
     // backwards-compatibility for the old `require()` API. If we're in
     // the browser, add `_` as a global object.
     if (typeof exports !== 'undefined') {
-      if (typeof module !== 'undefined' && module.exports) {
-        exports = module.exports = _;
-      }
-      exports._ = _;
+        if (typeof module !== 'undefined' && module.exports) {
+            exports = module.exports = _;
+        }
+        exports._ = _;
     } else {
-      root._ = _;
+        root._ = _;
     }
-    */
-
-    module.exports = _;
 
     // Current version.
     _.VERSION = '1.8.3';
@@ -1301,12 +1299,14 @@
     // Utility Functions
     // -----------------
 
+    /*
     // Run Underscore.js in *noConflict* mode, returning the `_` variable to its
     // previous owner. Returns a reference to the Underscore object.
     _.noConflict = function() {
         root._ = previousUnderscore;
         return this;
     };
+    */
 
     // Keep the identity function around for default iteratees.
     _.identity = function(value) {
@@ -1563,7 +1563,6 @@
         return '' + this._wrapped;
     };
 
-    /*
     // AMD registration happens at the end for compatibility with AMD loaders
     // that may not enforce next-turn semantics on modules. Even though general
     // practice for AMD registration is to be anonymous, underscore registers
@@ -1572,9 +1571,8 @@
     // an AMD load request. Those cases could generate an error when an
     // anonymous define() is called outside of a loader request.
     if (typeof define === 'function' && define.amd) {
-      define('underscore', [], function() {
-        return _;
-      });
+        define('underscore', [], function() {
+            return _;
+        });
     }
-    */
-}.call(this));
+})();

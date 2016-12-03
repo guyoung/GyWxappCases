@@ -3,13 +3,13 @@ var sizeType = [ ['compressed'], ['original'], ['compressed', 'original'] ]
 
 Page({
   data: {
-    sourceTypeIndex: 0,
+    sourceTypeIndex: 2,
     sourceType: ['拍照', '相册', '拍照或相册'],
 
-    sizeTypeIndex: 0,
+    sizeTypeIndex: 2,
     sizeType: ['压缩', '原图', '压缩或原图'],
 
-    countIndex: 0,
+    countIndex: 8,
     count: [1, 2, 3, 4, 5, 6, 7, 8, 9]
   },
   sourceTypeChange: function (e) {

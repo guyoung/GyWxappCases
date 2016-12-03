@@ -1,5 +1,5 @@
 var util = require('../../../util/util.js')
-var playTimeInterval,interval
+var playTimeInterval
 
 Page({
   data: {
@@ -15,7 +15,7 @@ Page({
     this.setData({ recording: true })
 
     var that = this
-    interval = setInterval(function () {
+    var interval = setInterval(function () {
       that.data.recordTime += 1
       that.setData({
         formatedRecordTime: util.formatTime(that.data.recordTime)
@@ -37,8 +37,6 @@ Page({
   },
   stopRecord: function () {
     wx.stopRecord()
-    this.setData({recording:false,recordTime:0,formatedRecordTime: '00:00:00'})
-    clearInterval(interval)
   },
   playVoice: function () {
     var that = this
@@ -80,14 +78,13 @@ Page({
   clear: function () {
     this.data.recordTime = 0
     this.data.playTime = 0
+    clearInterval(playTimeInterval)
+    wx.stopVoice()
     this.setData({
+      playing: false,
       hasRecord: false,
       tempFilePath: '',
       formatedRecordTime: util.formatTime(0)
     })
-  },
-  onUnload:function(){
-    this.stopRecord()
-    console.log("voice page has been unloaded!")
   }
 })

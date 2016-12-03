@@ -6,7 +6,7 @@
 
   <view class="page-body">
     <view class="page-body-wrapper">
-      <form bindsubmit="openLocation">
+      <form>
         <view class="page-body-form">
           <picker range="{{sourceType}}" bindchange="sourceTypeChange" value="{{sourceTypeIndex}}">
             <view class="page-body-form-picker">
@@ -30,10 +30,13 @@
         <view class="images-wrapper">
           <text class="images-text">请选择图片</text>
           <view class="images-list">
-            <block wx:for-items="{{imageList}}" wx:for-item="image">
+            <block wx:for="{{imageList}}" wx:for-item="image">
               <image src="{{image}}" class="images-image" data-src="{{image}}" bindtap="previewImage"></image>
             </block>
-            <image src="/image/plus.png" class="images-image images-image-plus" bindtap="chooseImage"></image>
+            <view class="images-image image-plus" bindtap="chooseImage">
+              <view class="image-plus-horizontal"></view>
+              <view class="image-plus-vertical"></view>
+            </view>
           </view>
         </view>
       </form>

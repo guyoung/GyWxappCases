@@ -2,6 +2,5 @@ Component And API
 ================
 
 
-From https://github.com/xwartz/wechatApp-demo
-
+From https://mp.weixin.qq.com/debug/wxadoc/dev/demo.html
 

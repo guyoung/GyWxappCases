@@ -13,7 +13,7 @@
         <text>04:29</text>
       </view>
     </view>
-    <text class="page-body-text">离开应用后音乐也可保持播放</text>
+    <text class="page-body-text">离开小程序后音乐也可保持播放</text>
     <view class="page-body-buttons">
       <block wx:if="{{playing === true}}">
         <view class="page-body-button" bindtap="stop">
@@ -22,20 +22,14 @@
         <view class="page-body-button" bindtap="pause">
           <image src="/image/pause.png"></image>
         </view>
-        <view class="page-body-button" bindtap="play">
-          <text class="restart">重播</text>
-        </view>
       </block>
       <block wx:if="{{playing === false}}">
         <view class="page-body-button"></view>
-        <view class="page-body-button" bindtap="resume">
+        <view class="page-body-button" bindtap="play">
           <image src="/image/play.png"></image>
         </view>
-        <view class="page-body-button" bindtap="play">
-          <text class="restart">重播</text>
-        </view>
       </block>
-      <!-- <view class="page-body-button"></view> -->
+      <view class="page-body-button"></view>
     </view>
   </view>
 

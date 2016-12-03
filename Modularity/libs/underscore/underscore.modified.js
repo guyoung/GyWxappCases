@@ -8,13 +8,11 @@
     // Baseline setup
     // --------------
 
-    /*
     // Establish the root object, `window` in the browser, or `exports` on the server.
-    var root = this;
+    //var root = this;
 
     // Save the previous value of the `_` variable.
-    var previousUnderscore = root._;
-    */
+    //var previousUnderscore = root._;
 
     // Save bytes in the minified (but not gzipped) version:
     var ArrayProto = Array.prototype,
@@ -1299,14 +1297,12 @@
     // Utility Functions
     // -----------------
 
-    /*
     // Run Underscore.js in *noConflict* mode, returning the `_` variable to its
     // previous owner. Returns a reference to the Underscore object.
     _.noConflict = function() {
         root._ = previousUnderscore;
         return this;
     };
-    */
 
     // Keep the identity function around for default iteratees.
     _.identity = function(value) {
@@ -1575,4 +1571,4 @@
             return _;
         });
     }
-})();
+}.call(this));

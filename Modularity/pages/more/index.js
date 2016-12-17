@@ -1,9 +1,5 @@
 //index.js
 
-//var uuid = require('../../libs/node-uuid/uuid.modified.js');
-//var Base64 = require('../../libs/js-base64/base64.modified.js');
-//var Chance = require('../../libs/chance/chance.modified.js');
-
 var uuid = require('../../libs/node-uuid/uuid.modified');
 var Base64 = require('../../libs/js-base64/base64.modified');
 var Chance = require('../../libs/chance/chance');

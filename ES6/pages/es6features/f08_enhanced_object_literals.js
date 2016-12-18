@@ -3,25 +3,46 @@
 function f08_enhanced_object_literals() {
     console.log("\nf08:Enhanced Object Literals");
 
-    //通过对象字面量创建对象
-    var human = {
-        breathe() {
-            console.log('breathing...');
+    // 属性的简洁表示法
+    function f1(x, y) {
+        return { x, y };
+    }
+
+    // 方法的简洁表示法
+    function f2() {
+        return {
+            hello() {
+                return "Hello!";
+            }
         }
-    };
-    var worker = {
-        //设置此对象的原型为human,相当于继承human
-        __proto__: human,
-        company: 'freelancer',
-        work() {
-            console.log('working...');
+    }
+
+    // 属性名表达式
+    function f3() {
+        return {
+            foo: true,
+            ['a' + 'bc']: 123
         }
-    };
-    //输出 breathing...
-    human.breathe();
-    //调用继承来的breathe方法
-    //输出 breathing...
-    worker.breathe();
+    }
+
+
+    function getCar(make, model, value) {
+        return {
+            make,
+            model,
+            value,
+            ['make' + make]: true,
+
+            depreciate() {
+                this.value -= 2500;
+            }
+        };
+    }
+
+    let car = getCar('Kia', 'Sorento', 40000);
+    console.log(car); // 输出: Object {make: "Kia", model: "Sorento", value: 40000, makeKia: true}
+    car.depreciate();
+    console.log(car.value); // 输出: 37500
 }
 
 module.exports = f08_enhanced_object_literals;

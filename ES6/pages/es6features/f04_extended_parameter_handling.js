@@ -12,7 +12,7 @@ function f04_extended_parameter_handling() {
     logName('JavaScript'); // 输出：JavaScript
 
 
-    // Rest不定参数
+    // Rest 不定参数
     function add(...numArray) {
         let sum = 0;
         for (let num of numArray) {

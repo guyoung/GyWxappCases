@@ -4,6 +4,16 @@ function f16_typed_arrays() {
 
     console.log("\nf16:Typed Arrays");
 
+
+    let typedArray = new Uint8Array([0, 1, 2]);
+    console.log(typedArray.length); // 输出:  3
+    typedArray[0] = 5;
+    let normalArray = [...typedArray];
+    console.log(normalArray); // 输出:  [5,1,2]
+
+    let dataView = new DataView(typedArray.buffer);
+    console.log(dataView.getUint8(0)); // 输出:  5
+
     class Example {
         constructor(buffer = new ArrayBuffer(24)) {
             this.buffer = buffer;

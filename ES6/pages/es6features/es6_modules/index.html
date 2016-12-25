@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>ES6 Modules</title>
+    <script type="text/javascript" src="system.js"></script>
+</head>
+
+<body>
+    <script type="text/javascript">
+        System.config({
+            baseURL: '.',
+            defaultJSExtensions: true
+        });
+        System.import('app').then(function(app) {
+            app.execute();
+        }).catch(console.error.bind(console));
+    </script>
+</body>
+
+</html>

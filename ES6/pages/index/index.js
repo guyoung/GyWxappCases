@@ -21,6 +21,8 @@ var f17 = require('../es6features/f17_new_built_in_methods.js');
 var f18 = require('../es6features/f18_promises.js');
 var f19 = require('../es6features/f19_meta_programming.js');
 var f20 = require('../es6features/f20_internationalization_localization.js');
+var other = require('../es6features/other.js');
+var script = require('../es6features/scripts.js');
 
 
 
@@ -50,6 +52,8 @@ Page({
         f18();
         f19();
         f20();
+        other();
+        script();
     }
 
 })

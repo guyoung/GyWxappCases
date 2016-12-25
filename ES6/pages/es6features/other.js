@@ -17,6 +17,8 @@ function other() {
     console.log(arr.length == 2); // 输出: true
 
 
+
+
     // Tail-call optimization
 
     'use strict';
@@ -66,6 +68,19 @@ function other() {
     console.log(fibonacci2(2000)); // 输出: Infinity
 
     // console.log(fibonacci2(10000)); // 输出: RangeError: Maximum call stack size exceeded
+
+    // Custom Errors in ES6
+    class MyError extends Error {
+        constructor(message) {
+            super(message);
+            this.message = message;
+            this.name = 'MyError';
+        }
+    }
+    var error = new Error(" Error occurred");
+    console.log(error.message); // 输出: Error occurred
+    var myerror = new MyError("Error occurred");
+    console.log(myerror.message); // 输出: Error occurred
 }
 
 module.exports = other;

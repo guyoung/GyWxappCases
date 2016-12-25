@@ -22,10 +22,9 @@ var f18 = require('../es6features/f18_promises.js');
 var f19 = require('../es6features/f19_meta_programming.js');
 var f20 = require('../es6features/f20_internationalization_localization.js');
 var other = require('../es6features/other.js');
-var script = require('../es6features/scripts.js');
-
-
-
+var topic01 = require('../es6features/topic01.js');
+var topic02 = require('../es6features/topic02.js');
+var topic03 = require('../es6features/topic03.js');
 
 
 Page({
@@ -53,7 +52,9 @@ Page({
         f19();
         f20();
         other();
-        script();
+        topic01();
+        topic02();
+        topic03();
     }
 
 })

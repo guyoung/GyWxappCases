@@ -1,4 +1,4 @@
-import * as math from "math";
+import * as math from "f10_modules_math";
 
 function execute() {
     console.log("π = " + math.sum(math.pi));

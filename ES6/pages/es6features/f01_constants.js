@@ -7,6 +7,9 @@ function f01_constants() {
     const PI = 3.141593;
     console.log(PI);
 
+    let a = 4;
+
+
     // PI = 3; // 报错: Uncaught TypeError: Assignment to constant variable.
 
     // const PI = 3.1; // 报错: Uncaught SyntaxError: Identifier 'PI' has already been declared

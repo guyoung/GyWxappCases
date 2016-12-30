@@ -1,0 +1,22 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/promise/index",
+    "pages/generator/index",
+    "pages/object/index",
+    "pages/immutable/index",
+    "pages/redux/index",     
+    "pages/datetime/index",
+    "pages/regexp/index",
+    "pages/xml/index",
+    "pages/crypto/index",
+    "pages/assistant/index"     
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

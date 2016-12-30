@@ -2,5 +2,5 @@ Component And API
 ================
 
 
-From https://mp.weixin.qq.com/debug/wxadoc/dev/demo.html
+<https://mp.weixin.qq.com/debug/wxadoc/dev/demo.html?t=20161222>
 

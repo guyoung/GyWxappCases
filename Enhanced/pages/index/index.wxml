@@ -1,0 +1,59 @@
+<!--index.wxml-->
+<view class="page">
+    <view class="page__hd">
+        <text class="page__title">navigator</text>
+        <text class="page__desc">导航栏</text>
+    </view>
+    <view class="page__bd">
+        <view class="btn-area">
+            <navigator url="../promise/index" hover-class="navigator-hover">
+                <button type="default">Promise</button>
+            </navigator>
+        </view>
+          <view class="btn-area">
+            <navigator url="../generator/index" hover-class="navigator-hover">
+                <button type="default">Generator</button>
+            </navigator>
+        </view>
+           <view class="btn-area">
+            <navigator url="../object/index" hover-class="navigator-hover">
+                <button type="default">对象增强</button>
+            </navigator>
+        </view>
+                   <view class="btn-area">
+            <navigator url="../immutable/index" hover-class="navigator-hover">
+                <button type="default">Immutable</button>
+            </navigator>
+        </view>
+                   <view class="btn-area">
+            <navigator url="../redux/index" hover-class="navigator-hover">
+                <button type="default">Redux</button>
+            </navigator>
+        </view>
+                   <view class="btn-area">
+            <navigator url="../datetime/index" hover-class="navigator-hover">
+                <button type="default">日期时间</button>
+            </navigator>
+        </view>
+              <view class="btn-area">
+            <navigator url="../regexp/index" hover-class="navigator-hover">
+                <button type="default">正则表达式</button>
+            </navigator>
+        </view>
+             <view class="btn-area">
+            <navigator url="../xml/index" hover-class="navigator-hover">
+                <button type="default">XML</button>
+            </navigator>
+        </view>
+            <view class="btn-area">
+            <navigator url="../crypto/index" hover-class="navigator-hover">
+                <button type="default">加解密</button>
+            </navigator>
+        </view>
+                    <view class="btn-area">
+            <navigator url="../assistant/index" hover-class="navigator-hover">
+                <button type="default">测试辅助</button>
+            </navigator>
+        </view>
+    </view>
+</view>

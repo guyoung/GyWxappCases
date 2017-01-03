@@ -16,8 +16,8 @@
             </navigator>
         </view>
            <view class="btn-area">
-            <navigator url="../object/index" hover-class="navigator-hover">
-                <button type="default">对象增强</button>
+            <navigator url="../functions/index" hover-class="navigator-hover">
+                <button type="default">函数功能增强</button>
             </navigator>
         </view>
                    <view class="btn-area">

@@ -4,7 +4,7 @@
     "pages/logs/logs",
     "pages/promise/index",
     "pages/generator/index",
-    "pages/object/index",
+    "pages/functions/index",
     "pages/immutable/index",
     "pages/redux/index",     
     "pages/datetime/index",

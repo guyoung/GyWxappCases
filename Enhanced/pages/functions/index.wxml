@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="page">
     <view class="page__hd">
-        <text class="page__title">对象增强</text>
+        <text class="page__title">函数功能增强</text>
         <text class="page__desc">这是新建的页面，点击左上角返回回到之前页面</text>
         <text class="page__output">{{text}}</text>
     </view>

@@ -6,7 +6,7 @@ var app = getApp();
 Page({
 
     onReady: function () {
-        // console.log('onLoad');
+        // console.log('onReady');
         var that = this;
 
         // Redux

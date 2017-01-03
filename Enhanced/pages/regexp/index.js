@@ -17,12 +17,13 @@ Page({
         var date = XRegExp('(?<year>  [0-9]{4} ) -?  # year  \n\
                     (?<month> [0-9]{2} ) -?  # month \n\
                     (?<day>   [0-9]{2} )     # day   ', 'x');
-
-        // XRegExp.exec gives you named backreferences on the match result
+    
         var match = XRegExp.exec('2015-02-22', date);
-        console.log(match.year); // -> '2015'
+        console.log(match.year); // 输出：2015'
 
 
+
+        /*
         // It also includes optional pos and sticky arguments
         var pos = 3;
         var result2 = [];
@@ -79,5 +80,6 @@ Page({
         // Merge strings and regexes into a single pattern with updated backreferences
         console.log(XRegExp.union(['a+b*c', /(dog)\1/, /(cat)\1/], 'i'));
         // -> /a\+b\*c|(dog)\1|(cat)\2/i
+        */
     }
 });

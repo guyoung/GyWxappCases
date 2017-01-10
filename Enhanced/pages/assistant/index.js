@@ -1,35 +1,70 @@
 //index.js
-var Chance = require('../../lib/chance/chance');
-var Mock = require('../../lib/mockjs/mock')
-
 
 //获取应用实例
 var app = getApp();
 
 Page({
 
-
-
     onReady: function () {
-        // console.log('onLoad');
+        // console.log('onReady');
+
         var that = this;
 
+        // Chance
+        var Chance = require('../../lib/chance/chance');
         var chance = new Chance();
-        console.log(chance.string());
-        console.log(chance.integer());
-        console.log(chance.bool());
-        console.log(chance.phone());
-        console.log(chance.zip());
-        console.log(chance.guid());
 
-        var data = Mock.mock({
-            // 属性 list 的值是一个数组，其中含有 1 到 10 个元素
-            'list|1-10': [{
-                // 属性 id 是一个自增数，起始值为 1，每次增 1
-                'id|+1': 1
-            }]
-        })
-        // 输出结果
-        console.log(JSON.stringify(data, null, 4))
+        console.log(chance.bool()); // 输出：false
+        console.log(chance.character()); // 输出：I
+        console.log(chance.floating()); // 输出：246585506136.064
+        console.log(chance.integer()); // 输出：1867472378527744
+        console.log(chance.natural()); // 输出：3524803082321920
+        console.log(chance.string()); // 输出：7IVZVkvg2dLI@IP91C@V   
+
+        console.log(chance.paragraph());  //
+
+        console.log(chance.phone()); // (265) 892-6728
+        console.log(chance.zip()); // 76750
+
+        console.log(chance.guid()); // 67f55bf2-820d-5df8-98c8-a99cda4981da
+
+        // mock.js
+        {
+            var Mock = require('../../lib/mockjs/mock');
+
+            var data = Mock.mock({
+                'list|1-10': [{
+                    'id|+1': 1
+                }]
+            })
+            console.log(JSON.stringify(data, null, 4));
+        }
+
+        {
+
+            let DEBUG = true;
+
+            var Mock = require('../../lib/mockjs/mock');
+
+            if (DEBUG) {
+                var data = Mock.mock({
+                    'list|1-10': [{
+                        'id|+1': 1
+                    }]
+                });
+
+                console.log(JSON.stringify(data, null, 4))
+            } else {
+                wx.request({
+                    url: 'https://www.com.cn/data.php',
+                    header: {
+                        'content-type': 'application/json'
+                    },
+                    success: function (res) {
+                        console.log(JSON.stringify(res.data));
+                    }
+                });
+            }
+        }
     }
 });

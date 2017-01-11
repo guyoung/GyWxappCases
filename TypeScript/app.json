@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/syntax/type/index",
+    "pages/syntax/variable/index",
+    "pages/syntax/function/index",
+    "pages/syntax/class/index",
+    "pages/syntax/interface/index",
+    "pages/syntax/generic/index",
+    "pages/syntax/iterator/index",
+    "pages/syntax/module/index",
+    "pages/syntax/namespace/index",
+    "pages/syntax/decorator/index",
+
+    "pages/practice/login/login",
+    "pages/practice/get-user-info/get-user-info",
+    "pages/practice/request-payment/request-payment",
+    "pages/practice/set-navigation-bar-title/set-navigation-bar-title",
+    "pages/practice/navigation-bar-loading/navigation-bar-loading",
+    "pages/practice/navigator/navigator",
+    "pages/practice/pull-down-refresh/pull-down-refresh",
+    "pages/practice/animation/animation",
+    "pages/practice/get-network-type/get-network-type",
+    "pages/practice/get-system-info/get-system-info",
+    "pages/practice/on-compass-change/on-compass-change",
+    "pages/practice/request/request",
+    "pages/practice/web-socket/web-socket",
+    "pages/practice/upload-file/upload-file",
+    "pages/practice/download-file/download-file",  
+    "pages/practice/image/image",
+    "pages/practice/voice/voice",
+    "pages/practice/file/file",
+    "pages/practice/on-accelerometer-change/on-accelerometer-change",
+    "pages/practice/canvas/canvas",
+    "pages/practice/background-audio/background-audio",
+    "pages/practice/video/video",
+    "pages/practice/get-location/get-location",
+    "pages/practice/open-location/open-location",
+    "pages/practice/storage/storage"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

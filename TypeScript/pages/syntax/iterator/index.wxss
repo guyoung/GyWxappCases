@@ -1,0 +1,28 @@
+.page {
+    min-height: 100%;
+    flex: 1;
+    background-color: #FBF9FE;
+    font-size: 16px;
+    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+    overflow: hidden;
+}
+
+.page__hd{
+    padding: 40px;
+}
+.page__title{
+    display: block;
+    font-size: 20px;
+}
+.page__desc{
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #888888;
+}
+.page__output{
+    display: block;
+    margin-top: 20px;
+    font-size: 9px;
+    color: #000000;
+}

@@ -26,6 +26,7 @@
     "lodash": "^4.17.3",
     "mockjs": "^1.0.1-beta3",
     "moment": "^2.17.1",
+    "reflect-metadata": "^0.1.9",
     "regenerator-runtime": "^0.10.1",
     "sjcl": "^1.0.6",
     "underscore": "^1.8.3",

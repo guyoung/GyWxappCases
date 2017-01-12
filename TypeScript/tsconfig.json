@@ -8,6 +8,8 @@
         "removeComments": true,
         "noEmitOnError": true,
         "suppressImplicitAnyIndexErrors": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
         "typeRoots" : ["./@types"]
     },
     "files": [

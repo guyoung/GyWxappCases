@@ -1,78 +1,94 @@
 {
   "pages": [
     "page/component/index",
-    "page/component/component-pages/action-sheet/action-sheet",
-    "page/component/component-pages/audio/audio",
-    "page/component/component-pages/button/button",
-    "page/component/component-pages/canvas/canvas",
-    "page/component/component-pages/checkbox/checkbox",
-    "page/component/component-pages/form/form",
-    "page/component/component-pages/icon/icon",
-    "page/component/component-pages/image/image",
-    "page/component/component-pages/input/input",
-    "page/component/component-pages/map/map",
-    "page/component/component-pages/modal/modal",
-    "page/component/component-pages/navigator/navigator",
-    "page/component/component-pages/progress/progress",
-    "page/component/component-pages/radio/radio",
-    "page/component/component-pages/scroll-view/scroll-view",
-    "page/component/component-pages/slider/slider",
-    "page/component/component-pages/switch/switch",
-    "page/component/component-pages/text/text",
-    "page/component/component-pages/toast/toast",
-    "page/component/component-pages/video/video",
-    "page/component/component-pages/view/view",
-    "page/component/component-pages/swiper/swiper",
-    "page/component/component-pages/slide-tab/slide-tab",
-    "page/component/component-pages/label/label",
-    "page/component/component-pages/loading/loading",
-    "page/component/component-pages/navigator/navigate",
-    "page/component/component-pages/navigator/redirect",
-    "page/component/component-pages/picker/picker",
 
-    "page/API/index/index",
+    "page/component/pages/view/view",
+    "page/component/pages/scroll-view/scroll-view",
+    "page/component/pages/swiper/swiper",
 
-    "page/API/login/login",
-    "page/API/get-user-info/get-user-info",
-    "page/API/request-payment/request-payment",
+    "page/component/pages/text/text",
+    "page/component/pages/icon/icon",
+    "page/component/pages/progress/progress",
 
-    "page/API/set-navigation-bar-title/set-navigation-bar-title",
-    "page/API/navigation-bar-loading/navigation-bar-loading",
-    "page/API/navigator/navigator",
-    "page/API/pull-down-refresh/pull-down-refresh",
-    "page/API/animation/animation",
+    "page/component/pages/button/button",
+    "page/component/pages/checkbox/checkbox",
+    "page/component/pages/form/form",
+    "page/component/pages/input/input",
+    "page/component/pages/label/label",
+    "page/component/pages/picker/picker",
+    "page/component/pages/radio/radio",
+    "page/component/pages/slider/slider",
+    "page/component/pages/switch/switch",
+    "page/component/pages/textarea/textarea",
 
-    "page/API/get-network-type/get-network-type",
-    "page/API/get-system-info/get-system-info",
-    "page/API/on-compass-change/on-compass-change",
+    "page/component/pages/navigator/navigator",
+    "page/component/pages/navigator/navigate",
+    "page/component/pages/navigator/redirect",
 
-    "page/API/request/request",
-    "page/API/web-socket/web-socket",
-    "page/API/upload-file/upload-file",
-    "page/API/download-file/download-file",
-    
+    "page/component/pages/image/image",
+    "page/component/pages/audio/audio",
+    "page/component/pages/video/video",
 
-    "page/API/image/image",
-    "page/API/voice/voice",
-    "page/API/file/file",
-    "page/API/on-accelerometer-change/on-accelerometer-change",
-    "page/API/canvas/canvas",
-    "page/API/background-audio/background-audio",
-    "page/API/video/video",
+    "page/component/pages/map/map",
 
-    "page/API/get-location/get-location",
-    "page/API/open-location/open-location",
+    "page/component/pages/canvas/canvas",
 
-    "page/API/storage/storage"
+
+
+    "page/API/index",
+
+    "page/API/pages/login/login",
+    "page/API/pages/get-user-info/get-user-info",
+    "page/API/pages/request-payment/request-payment",
+    "page/API/pages/share/share",
+    "page/API/pages/custom-message/custom-message",
+    "page/API/pages/template-message/template-message",
+
+    "page/API/pages/set-navigation-bar-title/set-navigation-bar-title",
+    "page/API/pages/navigation-bar-loading/navigation-bar-loading",
+    "page/API/pages/navigator/navigator",
+    "page/API/pages/pull-down-refresh/pull-down-refresh",
+    "page/API/pages/animation/animation",
+
+    "page/API/pages/action-sheet/action-sheet",
+    "page/API/pages/modal/modal",
+    "page/API/pages/toast/toast",
+
+    "page/API/pages/get-network-type/get-network-type",
+    "page/API/pages/get-system-info/get-system-info",
+    "page/API/pages/on-compass-change/on-compass-change",
+    "page/API/pages/make-phone-call/make-phone-call",
+    "page/API/pages/scan-code/scan-code",
+
+
+    "page/API/pages/request/request",
+    "page/API/pages/web-socket/web-socket",
+    "page/API/pages/upload-file/upload-file",
+    "page/API/pages/download-file/download-file",
+
+
+    "page/API/pages/image/image",
+    "page/API/pages/voice/voice",
+    "page/API/pages/file/file",
+    "page/API/pages/on-accelerometer-change/on-accelerometer-change",
+    "page/API/pages/canvas/canvas",
+    "page/API/pages/background-audio/background-audio",
+    "page/API/pages/video/video",
+
+    "page/API/pages/get-location/get-location",
+    "page/API/pages/open-location/open-location",
+    "page/API/pages/choose-location/choose-location",
+
+    "page/API/pages/storage/storage"
   ],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "演示",
-    "navigationBarBackgroundColor": "#fbf9fe",
-    "backgroundColor": "#fbf9fe"
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
   },
   "tabBar": {
-    "color": "#dddddd",
+    "color": "#7A7E83",
     "selectedColor": "#3cc51f",
     "borderStyle": "black",
     "backgroundColor": "#ffffff",
@@ -82,7 +98,7 @@
       "selectedIconPath": "image/icon_component_HL.png",
       "text": "组件"
     }, {
-      "pagePath": "page/API/index/index",
+      "pagePath": "page/API/index",
       "iconPath": "image/icon_API.png",
       "selectedIconPath": "image/icon_API_HL.png",
       "text": "接口"
@@ -94,5 +110,5 @@
     "uploadFile": 10000,
     "downloadFile": 10000
   },
-  "debug": true
+  "debug": false
 }

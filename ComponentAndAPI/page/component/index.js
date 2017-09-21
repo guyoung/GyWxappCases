@@ -15,12 +15,7 @@ Page({
         id: 'form',
         name: '表单组件',
         open: false,
-        pages: ['button', 'checkbox', 'form', 'input', 'label', 'picker', 'radio', 'slider', 'switch']
-      }, {
-        id: 'feedback',
-        name: '操作反馈',
-        open: false,
-        pages: ['action-sheet', 'modal', 'toast', 'loading']
+        pages: ['button', 'checkbox', 'form', 'input', 'label', 'picker', 'radio', 'slider', 'switch', 'textarea']
       }, {
         id: 'nav',
         name: '导航',
@@ -42,17 +37,18 @@ Page({
       }
     ]
   },
-  widgetsToggle: function (e) {
+  kindToggle: function (e) {
     var id = e.currentTarget.id, list = this.data.list;
     for (var i = 0, len = list.length; i < len; ++i) {
       if (list[i].id == id) {
-        list[i].open = !list[i].open;
+        list[i].open = !list[i].open
       } else {
-        list[i].open = false;
+        list[i].open = false
       }
     }
     this.setData({
       list: list
     });
   }
-});
+})
+

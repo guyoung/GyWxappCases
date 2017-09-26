@@ -1,0 +1,78 @@
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.page {
+    min-height: 100%;
+    flex: 1;
+    background-color: #FBF9FE;
+    font-size: 16px;
+    font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.page__hd {
+    padding: 40px;
+}
+
+.page__title {
+    display: block;
+    font-size: 20px;
+}
+
+.page__desc {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #888888;
+}
+
+.page__output {
+    display: block;
+    margin-top: 20px;
+    font-size: 9px;
+    color: #000000;
+}
+
+.page__bd {
+    width: 100%;
+}
+
+.view {
+    width: 240px;    
+    margin: 10px auto;
+}
+
+.view1 {
+    text-shadow: 5px 5px 5px #FF0000;
+}
+
+.view2 {
+    text-align:justify;
+    text-justify:inter-word;
+}
+
+.view3 {
+    text-overflow:ellipsis;
+    white-space:nowrap; 
+    overflow:hidden; 
+    border:1px solid #000000;
+}
+
+.view4 {
+    text-overflow:clip;
+    white-space:nowrap; 
+    overflow:hidden; 
+    border:1px solid #000000;
+}
+
+.view5 {    
+    border:1px solid #000000;
+    word-wrap:break-word;
+}
+
+.view6 {    
+    border:1px solid #000000;
+    word-break:break-all;
+}

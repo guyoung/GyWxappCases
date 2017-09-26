@@ -2,6 +2,9 @@
   "pages":[
     "pages/home/index",
     "pages/border/index",
+    "pages/background/index",
+    "pages/text/index",
+    "pages/font/index",
     "pages/logs/logs"
   ],
   "window":{

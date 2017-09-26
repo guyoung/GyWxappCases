@@ -35,33 +35,27 @@
     color: #000000;
 }
 
-.page__bd{
+.page__bd {
     width: 100%;
-  
 }
 
-
-
 .view {
-    width:200px;
+    width: 200px;
     height: 40px;
     margin: 10px auto;
-  
 }
 
 .view1 {
-    border:2px solid;
-    border-radius:25px;
+    border: 2px solid;
+    border-radius: 25px;
 }
 
-.view2
-{
- 
-    background-color:#ff9900;
+.view2 {
+    background-color: #ff9900;
     box-shadow: 10px 10px 5px #888888;
 }
-.view3
-{
-    border:15px solid transparent;
-    border-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE4AAABOCAYAAACOqiAdAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABZ0RVh0Q3JlYXRpb24gVGltZQAwMi8yMi8xM9mZDVkAAAAfdEVYdFNvZnR3YXJlAE1hY3JvbWVkaWEgRmlyZXdvcmtzIDi1aNJ4AAACl0lEQVR4nO2bbW7CQAxEDeo9gZMlR4GTuT/QVpRkk13bM1mQR6r6Cz3NUz8I1oj2ZppUr9fulw2KMYOkGyLy/AK2ImFcoHZxrxBgKxLGDWoTtwYBtCJhQkD74rYgga1ImDDQtrgWSEArEiYUVBfXA3G0ImHCQeviLBBDKxIGAlqK80A6WpEwMJCEQxpakTBQkEAgG61IGDhIYJAVGAlDAQkU8gIjYbDSXkBnOZ2EERKGB1JV1Xmm/A6RMBSQQGErf7VJGDhIYLCN9wkkDBQkEFjDO1MSBgZaivPCOp6FSBgIaF2cFWZ4+iZhwkF1cb0wx+c9JEwoaFtcKyzgE0YSJgy0L24PFviZNgkTAmoTV4MBrigkjBvULu4dBrzbkTAuUJ+4AiNcikkYM+ikqtrzbDvPIo+HyDSBHp7JMffpsUy7sJPi6dMsjnZhJ8Xbp0kc7cJOSkSfXXG0CzspUX02xdEu7KRE9qmKo13YSYnusyqOdmEnBdFnIY52YScF1UeiISPJQ/YRBGQEeeg+goIcKY/RR2gX9i+Q9trnTLuwk0Lro0q8sJPC6CNI2JH/HNB9BAUb4e0Iso8gYCNIK0H1WYjzwkaSVoLosyrOChtRWkl0n6q4XtjI0koi+2yKa4V9grSSqD674vZgnyStJKJPk7ga7BOllXj7NIt7h32ytBJPn5+ex7PL5fn9fv+Og7Snz7kbprNMcut9WXfmWeSGx9j7dP185ib/L+3icpP/L23icpO/yL643OSvZltcbvKrqYvLTX5u8nOTb5GXm3yDvNzkG+TlJt8gLzf5hk65yR8cpKq5yTeABArLTX5UGyomN/kOTG7yHZjc5DswucnPTf4xmNzkHw1qE1eD5SbfAMtNvgGWm3z9BYVXGYp5QqaLAAAAAElFTkSuQmCC) 30 30 round;
+
+.view3 {
+    border: 15px solid transparent;
+    border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE4AAABOCAYAAACOqiAdAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABZ0RVh0Q3JlYXRpb24gVGltZQAwMi8yMi8xM9mZDVkAAAAfdEVYdFNvZnR3YXJlAE1hY3JvbWVkaWEgRmlyZXdvcmtzIDi1aNJ4AAACl0lEQVR4nO2bbW7CQAxEDeo9gZMlR4GTuT/QVpRkk13bM1mQR6r6Cz3NUz8I1oj2ZppUr9fulw2KMYOkGyLy/AK2ImFcoHZxrxBgKxLGDWoTtwYBtCJhQkD74rYgga1ImDDQtrgWSEArEiYUVBfXA3G0ImHCQeviLBBDKxIGAlqK80A6WpEwMJCEQxpakTBQkEAgG61IGDhIYJAVGAlDAQkU8gIjYbDSXkBnOZ2EERKGB1JV1Xmm/A6RMBSQQGErf7VJGDhIYLCN9wkkDBQkEFjDO1MSBgZaivPCOp6FSBgIaF2cFWZ4+iZhwkF1cb0wx+c9JEwoaFtcKyzgE0YSJgy0L24PFviZNgkTAmoTV4MBrigkjBvULu4dBrzbkTAuUJ+4AiNcikkYM+ikqtrzbDvPIo+HyDSBHp7JMffpsUy7sJPi6dMsjnZhJ8Xbp0kc7cJOSkSfXXG0CzspUX02xdEu7KRE9qmKo13YSYnusyqOdmEnBdFnIY52YScF1UeiISPJQ/YRBGQEeeg+goIcKY/RR2gX9i+Q9trnTLuwk0Lro0q8sJPC6CNI2JH/HNB9BAUb4e0Iso8gYCNIK0H1WYjzwkaSVoLosyrOChtRWkl0n6q4XtjI0koi+2yKa4V9grSSqD674vZgnyStJKJPk7ga7BOllXj7NIt7h32ytBJPn5+ex7PL5fn9fv+Og7Snz7kbprNMcut9WXfmWeSGx9j7dP185ib/L+3icpP/L23icpO/yL643OSvZltcbvKrqYvLTX5u8nOTb5GXm3yDvNzkG+TlJt8gLzf5hk65yR8cpKq5yTeABArLTX5UGyomN/kOTG7yHZjc5DswucnPTf4xmNzkHw1qE1eD5SbfAMtNvgGWm3z9BYVXGYp5QqaLAAAAAElFTkSuQmCC) 30 30 round;
 }

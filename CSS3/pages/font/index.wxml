@@ -1,0 +1,142 @@
+<view class="container">
+    <view class="page">
+        <view class="page__hd">
+            <text class="page__title">CSS3 Font</text>
+            <text class="page__desc"></text>
+            <text class="page__output"></text>
+        </view>
+        <view class="page__bd">
+            <view class="weui-grids">
+                <view class="weui-grid">
+                    <view class="weui-grid__icon">
+                        <text class="icon icon-appreciate"></text>
+                    </view>
+                    <view class="weui-grid__label">
+                        <text>appreciate</text>
+                    </view>
+                </view>
+                <view class="weui-grid">
+                    <view class="weui-grid__icon">
+                        <text class="icon icon-check"></text>
+                    </view>
+                    <view class="weui-grid__label">
+                        <text>check</text>
+                    </view>
+                </view>
+                <view class="weui-grid">
+                    <view class="weui-grid__icon">
+                        <text class="icon icon-close"></text>
+                    </view>
+                    <view class="weui-grid__label">
+                        <text>close</text>
+                    </view>
+                </view>
+                <view class="weui-grid">
+                    <view class="weui-grid__icon">
+                        <text class="icon icon-edit"></text>
+                    </view>
+                    <view class="weui-grid__label">
+                        <text>edit</text>
+                    </view>
+                </view>
+                <view class="weui-grid">
+                    <view class="weui-grid__icon">
+                        <text class="icon icon-emoji"></text>
+                    </view>
+                    <view class="weui-grid__label">
+                        <text>emoji</text>
+                    </view>
+                </view>
+                <view class="weui-grid">
+                    <view class="weui-grid__icon">
+                        <text class="icon icon-favorfill"></text>
+                    </view>
+                    <view class="weui-grid__label">
+                        <text>favorfill</text>
+                    </view>
+                </view>
+                <view class="weui-grid">
+                    <view class="weui-grid__icon">
+                        <text class="icon icon-favor"></text>
+                    </view>
+                    <view class="weui-grid__label">
+                        <text>favor</text>
+                    </view>
+                </view>
+                <view class="weui-grid">
+                    <view class="weui-grid__icon">
+                        <text class="icon icon-loading"></text>
+                    </view>
+                    <view class="weui-grid__label">
+                        <text>loading</text>
+                    </view>
+                </view>
+                <view class="weui-grid">
+                    <view class="weui-grid__icon">
+                        <text class="icon icon-phone"></text>
+                    </view>
+                    <view class="weui-grid__label">
+                        <text>phone</text>
+                    </view>
+                </view>
+                <view class="weui-grid">
+                    <view class="weui-grid__icon">
+                        <text class="icon icon-roundcheckfill"></text>
+                    </view>
+                    <view class="weui-grid__label">
+                        <text>roundcheckfill</text>
+                    </view>
+                </view>
+                <view class="weui-grid">
+                    <view class="weui-grid__icon">
+                        <text class="icon icon-roundcheck"></text>
+                    </view>
+                    <view class="weui-grid__label">
+                        <text>roundcheck</text>
+                    </view>
+                </view>
+                <view class="weui-grid">
+                    <view class="weui-grid__icon">
+                        <text class="icon icon-roundclosefill"></text>
+                    </view>
+                    <view class="weui-grid__label">
+                        <text>roundclosefill</text>
+                    </view>
+                </view>
+                <view class="weui-grid">
+                    <view class="weui-grid__icon">
+                        <text class="icon icon-roundclose"></text>
+                    </view>
+                    <view class="weui-grid__label">
+                        <text>roundclose</text>
+                    </view>
+                </view>
+                <view class="weui-grid">
+                    <view class="weui-grid__icon">
+                        <text class="icon icon-roundrightfill"></text>
+                    </view>
+                    <view class="weui-grid__label">
+                        <text>roundrightfill</text>
+                    </view>
+                </view>
+                <view class="weui-grid">
+                    <view class="weui-grid__icon">
+                        <text class="icon icon-roundright"></text>
+                    </view>
+                    <view class="weui-grid__label">
+                        <text>roundright</text>
+                    </view>
+                </view>
+                <view class="weui-grid">
+                    <view class="weui-grid__icon">
+                        <text class="icon icon-search"></text>
+                    </view>
+                    <view class="weui-grid__label">
+                        <text>search</text>
+                    </view>
+                </view>
+
+            </view>
+        </view>
+    </view>
+</view>

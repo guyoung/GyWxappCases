@@ -10,8 +10,21 @@
                     <button type="default">CSS3 Border</button>
                 </navigator>
             </view>
-          
-           
+            <view class="btn-area">
+                <navigator url="../background/index" hover-class="navigator-hover">
+                    <button type="default">CSS3 Background</button>
+                </navigator>
+            </view>
+            <view class="btn-area">
+                <navigator url="../text/index" hover-class="navigator-hover">
+                    <button type="default">CSS3 Text</button>
+                </navigator>
+            </view>
+            <view class="btn-area">
+                    <navigator url="../font/index" hover-class="navigator-hover">
+                        <button type="default">CSS3 Font</button>
+                    </navigator>
+                </view>
         </view>
     </view>
 </view>

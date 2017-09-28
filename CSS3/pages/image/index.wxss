@@ -1,0 +1,107 @@
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.page {
+    min-height: 100%;
+    flex: 1;
+    background-color: #FBF9FE;
+    font-size: 16px;
+    font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.page__hd {
+    padding: 40px;
+}
+
+.page__title {
+    display: block;
+    font-size: 20px;
+}
+
+.page__desc {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #888888;
+}
+
+.page__output {
+    display: block;
+    margin-top: 20px;
+    font-size: 9px;
+    color: #000000;
+}
+
+.page__bd {
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+}
+
+.view {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+}
+
+.view1 > image {
+    width: 200px;
+    height: 200px;    
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.view2 > image {
+    width: 200px;
+    height: 200px;    
+    border-radius: 25px;
+}
+
+.view3 > image {
+    width: 200px;
+    height: 100px;    
+    border-radius: 50%;
+}
+
+.view4 {
+    width:100%;
+    height: 200px;     
+}
+
+.view4 > image {   
+    width: 100%;
+    height: 200px;    
+    
+}
+
+.view5 {
+    width: 200px;
+    height: 240px;
+    margin: 20px auto;
+    background-color:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.view5 > image {
+    width: 200px;
+    height: 200px;      
+}
+
+.view5 > view {
+    height: 40px; 
+    text-align: center;
+    padding: 10px 20px;     
+}
+
+.view6 > image {
+    width: 200px;
+    height: 200px;      
+    filter: blur(4px);filter: blur(4px);
+}

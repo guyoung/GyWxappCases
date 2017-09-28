@@ -5,6 +5,14 @@
     "pages/background/index",
     "pages/text/index",
     "pages/font/index",
+    "pages/2dtransform/index",
+    "pages/3dtransform/index",
+    "pages/transition/index",
+    "pages/animation/index",
+    "pages/flexbox/index",
+    "pages/image/index",
+    "pages/button/index",
+    "pages/other/index",
     "pages/logs/logs"
   ],
   "window":{

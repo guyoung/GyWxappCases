@@ -21,12 +21,50 @@
                 </navigator>
             </view>
             <view class="btn-area">
-                    <navigator url="../font/index" hover-class="navigator-hover">
-                        <button type="default">CSS3 Font</button>
-                    </navigator>
-                </view>
+                <navigator url="../font/index" hover-class="navigator-hover">
+                    <button type="default">CSS3 Font</button>
+                </navigator>
+            </view>
+            <view class="btn-area">
+                <navigator url="../2dtransform/index" hover-class="navigator-hover">
+                    <button type="default">CSS3 2D Transform</button>
+                </navigator>
+            </view>
+            <view class="btn-area">
+                <navigator url="../3dtransform/index" hover-class="navigator-hover">
+                    <button type="default">CSS3 3D Transform</button>
+                </navigator>
+            </view>
+            <view class="btn-area">
+                <navigator url="../transition/index" hover-class="navigator-hover">
+                    <button type="default">CSS3 Transition</button>
+                </navigator>
+            </view>
+            <view class="btn-area">
+                <navigator url="../animation/index" hover-class="navigator-hover">
+                    <button type="default">CSS3 Animation</button>
+                </navigator>
+            </view>
+            <view class="btn-area">
+                <navigator url="../flexbox/index" hover-class="navigator-hover">
+                    <button type="default">CSS3 Flexbox</button>
+                </navigator>
+            </view>
+            <view class="btn-area">
+                <navigator url="../image/index" hover-class="navigator-hover">
+                    <button type="default">CSS3 Image</button>
+                </navigator>
+            </view>
+            <view class="btn-area">
+                <navigator url="../button/index" hover-class="navigator-hover">
+                    <button type="default">CSS3 Button</button>
+                </navigator>
+            </view>
+            <view class="btn-area">
+                <navigator url="../other/index" hover-class="navigator-hover">
+                    <button type="default">CSS3 Other</button>
+                </navigator>
+            </view>
         </view>
     </view>
 </view>
-
-

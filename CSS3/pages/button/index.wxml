@@ -1,0 +1,47 @@
+<view class="container">
+    <view class="page">
+        <view class="page__hd">
+            <text class="page__title">CSS3 Button</text>
+            <text class="page__desc"></text>
+            <text class="page__output"></text>
+        </view>
+        <view class="page__bd">
+            <view>
+                <view class="view1">
+                    <button type="default">Button</button>
+                    <button type="primary">Button</button>
+                    <button type="warn">Button</button>
+                </view>
+                <view class="view2">
+                    <button hover-class="button-hover">Button</button>
+
+                </view>
+                <view class="view3">
+                    <button>Button</button>
+
+                </view>
+                <view class="view4">
+                    <button>Button</button>
+
+                </view>
+                <view class="view5">
+                    <button>Button</button>
+
+                </view>
+                <view class="view6">
+                    <button>Button</button>
+
+                </view>
+                <view class="view7">
+                    <button>Button</button>
+
+                </view>
+                <view class="view8">
+                    <button>Button</button>
+
+                </view>
+            </view>
+
+        </view>
+    </view>
+</view>

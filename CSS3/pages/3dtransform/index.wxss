@@ -1,0 +1,111 @@
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.page {
+    min-height: 100%;
+    flex: 1;
+    background-color: #FBF9FE;
+    font-size: 16px;
+    font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.page__hd {
+    padding: 40px;
+}
+
+.page__title {
+    display: block;
+    font-size: 20px;
+}
+
+.page__desc {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #888888;
+}
+
+.page__output {
+    display: block;
+    margin-top: 20px;
+    font-size: 9px;
+    color: #000000;
+}
+
+.page__bd {
+    width: 100%;
+}
+
+
+.view {
+    width: 200px;
+    height: 60px;
+    margin: 30px auto;
+}
+
+
+.view1 {
+    background-color:green;    
+}
+
+
+.view2 {
+    transform:rotateX(120deg);
+    background-color:green;    
+}
+
+.view3 {
+    background-color:yellow;    
+}
+
+.view4 {
+    transform:rotateY(130deg);
+    background-color:yellow;   
+}
+
+.view5 {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    padding:10px;
+    border: 1px solid black;
+}
+
+.view6 {
+    padding:50px;
+    position: absolute;
+    border: 1px solid black;
+    background-color: yellow;
+    transform: rotate(45deg);
+    transform-origin:20% 40%;
+}
+
+.view7 {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    padding:10px;
+    border: 1px solid black;
+}
+
+.view8 {
+    padding:50px;
+    position: absolute;
+    border: 1px solid black;
+    background-color: red;
+    transform: rotateY(60deg);
+    transform-style: preserve-3d;
+}
+
+.view9 {
+    padding:40px;
+    position: absolute;
+    border: 1px solid black;
+    background-color: yellow;
+    transform: rotateY(80deg);
+}

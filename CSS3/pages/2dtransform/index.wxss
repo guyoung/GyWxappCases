@@ -1,0 +1,94 @@
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.page {
+    min-height: 100%;
+    flex: 1;
+    background-color: #FBF9FE;
+    font-size: 16px;
+    font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.page__hd {
+    padding: 40px;
+}
+
+.page__title {
+    display: block;
+    font-size: 20px;
+}
+
+.page__desc {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #888888;
+}
+
+.page__output {
+    display: block;
+    margin-top: 20px;
+    font-size: 9px;
+    color: #000000;
+}
+
+.page__bd {
+    width: 100%;
+}
+
+.view {
+    width: 200px;
+    height: 60px;
+    margin: 30px auto;
+}
+
+
+.view1 {
+    background-color:green;    
+}
+
+
+.view2 {
+    transform:translate(50px,5px);
+    background-color:green;    
+}
+
+.view3 {
+    background-color:yellow;    
+}
+
+.view4 {
+    transform:rotate(9deg);
+    background-color:yellow;   
+}
+
+.view5 {
+    background-color:blue;
+}
+
+.view6 {
+    transform:scale(1.5,1.5);
+    background-color:blue;   
+}
+
+.view7 {
+    background-color: rosybrown;
+}
+
+.view8 {
+    transform:skew(30deg,20deg);
+    background-color: rosybrown;
+}
+
+.view9 {
+    background-color:slategray;
+}
+
+.view10 {
+    transform:matrix(0.866,0.5,-0.5,0.866,0,0);
+    background-color: slategray
+    
+}

@@ -1,6 +1,0 @@
-<template name="header">
-  <view class="page-header">
-    <text class="page-header-text">{{title}}</text>
-    <view class="page-header-line"></view>
-  </view>
-</template>

@@ -1,9 +1,0 @@
-App({
-  onLaunch: function () {
-
-  },
-  
-  globalData: {
-
-  }
-})
